@@ -1,0 +1,75 @@
+/* @font-face {
+    font-family: 'Red Hat';
+    src: url('RedHatDisplay-ExtraBold.ttf') format('ttf');
+  } */
+
+  @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Red+Hat+Display&display=swap');
+*{    
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.menu-container{
+    font-weight: bold;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links{
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.links div{
+    padding: 10px 20px;
+}
+
+.culture-easy{
+    padding: 10px;
+    align-items: flex-start;
+    width: fit-content;
+    height: 40px;
+}
+
+.culture-easy img{
+    height: 40px;
+}
+
+.login-register{
+    padding: 10px;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.login{
+    color: #5330c9;
+    padding: 10px 20px;
+    margin-right: 60px;
+}
+
+.get-started{
+    width: fit-content;
+    color: #5330c9;
+    background-color: #e5e0f7;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.get-started:hover{
+    cursor: pointer;
+}
+
+.links div:hover,
+.login-register div:hover,
+.culture-easy:hover{
+    cursor: pointer;
+}
+

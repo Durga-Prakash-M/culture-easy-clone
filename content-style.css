@@ -1,0 +1,253 @@
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.section-title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.title-bg{
+    background-image: url(https://culture.easy.xyz/wp-content/uploads/sites/6/2021/06/BG.png);
+}
+
+.section-content{
+    text-align: center;
+    color: #3e3e3e;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 830px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.section-button{
+    width: fit-content;
+    max-width: auto;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 15px 25px;
+    text-align: center;
+    color: #e5e0f7;
+    background-color: #5330c9;
+}
+
+.section-button:hover{
+    cursor: pointer;
+}
+.section-image{
+    margin: auto;
+}
+.section-image  img{
+    max-width: 1200px;
+    height: auto;
+}
+
+.section-people{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.section-thought{
+    text-align: center;
+    align-self: center;
+    width: 538px;
+    font-family: "Frank Ruhl Libre", Sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    margin-left: 10px;
+}
+.profile-pic img{
+    width: 51px;
+    height: 51px;
+    border-radius: 100px;
+}
+
+.profile-name{
+    color: #5330c9;
+}
+
+.designation{
+    color: #939393;
+    font-size: 16px;
+}
+
+.line{
+    background-color: #e4e1f6;
+    height: 1px;
+    padding: 10px;
+}
+
+.right-rotate{
+    transform: rotate(5deg);
+}
+
+.two-step-process{
+    margin-top: 70px;
+    text-align: center;
+    color:#5330c9;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.learn{
+    margin-top: 20px;
+}
+
+.product-features{
+    background-color: #f0efef;
+    margin-top: 40px;
+}
+
+.features{
+    height: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.features-section div{
+    text-align: center;
+}
+.features-section{
+    box-shadow: 1px 0.5px 0.5px 1px grey;
+    z-index: 1;
+    background-color: #fff;
+    padding: 50px;
+    position: relative;
+    top: 80px;
+    height: 420px;
+    overflow: hidden;
+}
+.features-image img{
+    max-width: 600px;
+    width: 520px;
+}
+
+.features-list ul{
+    list-style: none;
+}
+
+.features-list li{
+    width:225px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.features-list li:hover{
+    background-color: rgb(83 48 201);
+    color: #fff;
+}
+
+.makes-different{
+    padding: 40px;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.okr-driven{
+    display: flex;
+    justify-content: center;
+}
+.okr-content{
+    padding: 20px;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    width: 490px;
+}
+.okr-driven img{
+    max-width: 700px;
+    width: 600px;
+}
+
+.okr-driven p{
+    margin-bottom: 25px;
+}
+
+.okr-image-caption{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img-caption{
+    margin: auto; 
+    font-size: 20px;         
+}
+
+.img-caption span{
+    background-image: url(https://culture.easy.xyz/wp-content/uploads/sites/6/2021/06/BG.png);
+}
+
+.pillars-HPT-ROI{
+    display: flex;
+    justify-content: center;
+    padding : 0px 75px 0px 75px;
+}
+
+.pillars-HPT-ROI h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pillars-HPT-ROI p{
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+}
+
+.pillars-HPT-ROI div{
+    padding: 10px;
+}
+
+.awards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.award-images{
+    text-align: center;
+}
+.award-images img{
+    width: 175px;
+    margin: 10px 20px 10px 20px;
+    padding: 20px;
+}
+
+.customer-images{
+    text-align: center ;
+}
+.customer-images img{
+    width: 236px;
+    height: 56;
+}
